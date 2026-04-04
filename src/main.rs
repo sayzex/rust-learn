@@ -80,11 +80,44 @@ let data2: u8 = num2.trim().parse().expect("Please enter a valid number");
 }  */
  
 
- fn main() {
+  /* fn main() {
     // Yslovnie operatori
-    let number = 10; 
-
-    if number > 5 {
+    let number = 5; 
+    let is_has_car = true;
+    // Operatori && eto i and   || eto ili or 
+    // && eto i and   || eto ili or 
+    if number >= 5 || is_has_car {
         println!("Number bigger than 10")
+    } else if number == 4 {
+        println!("Number is 4")
+    } else {
+        println!("else operator")
     }
+}  */
+
+  /*  fn main(){
+    // Ternarnii operator
+    let condition: bool = true;
+    let number = if condition { 5 } else { 10 };
+
+    println!("Res: {}", number)
+  }  */
+
+ /* fn main(){
+    // Operator match
+    let number = 6;
+
+    match number {
+    1 => println!("Result 1"),
+    2 => println!("Result 2"),
+    3 => println!("Result 3"),
+    4 => println!("Result 4"),
+    5 => println!("Result 5"),
+    _ => println!("Else")
+    }
+    println!("")
+} */
+
+fn main() {
+    
 }
