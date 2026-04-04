@@ -80,11 +80,11 @@ let data2: u8 = num2.trim().parse().expect("Please enter a valid number");
 }  */
  
 
- /* fn main() {
+ fn main() {
     // Yslovnie operatori
     let number = 10; 
 
     if number > 5 {
         println!("Number bigger than 10")
     }
-} */
+}
