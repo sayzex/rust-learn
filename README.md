@@ -20,7 +20,7 @@
 
 ## 📽 TikTok
 Мой путь и прогресс в видео-формате:
-👉 [Мой TikTok] (https://www.tiktok.com/@sayzex_code?is_from_webapp=1&sender_device=pc)
+👉 [Мой TikTok](https://www.tiktok.com/@sayzex_code?is_from_webapp=1&sender_device=pc)
 
 ---
 <p align="right">Keep coding 🦀</p>
