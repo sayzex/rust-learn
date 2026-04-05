@@ -1,4 +1,5 @@
-/* fn main() { 
+    // SAMOE PERVOE VIVOD I TYPE DANNIX
+      /* fn main() { 
     println!("Hello, world!");
 
     // Comment odna stroka comment
@@ -8,6 +9,7 @@
     
     
      */
+
 // Integer: i8, i16, i32, i64, i128 == eto type dannix prinimaet i otricatelnoe i polojitelnoe
     // u8, u16, u32, u4, u128 == eto type dannix prinimaet tolko polojitelnie chisla
 
@@ -18,8 +20,10 @@
 
     let num: u64 = 1000000;
     println!("Result: {}", num);
+
  
  // Float chislo s plavayshee tochkoi
+
 let num: f32 = 5.453;
 println!("Result: {}", num);
 
@@ -27,16 +31,19 @@ let num:f64 = 5.453234;
 println!("Result: {}", num);
 
 // Boolean eto type dannix bylevoe znachenie == true ili false
+
 let is_has_car: bool = false;
 println!("Result: {}", is_has_car);
 
 // Char type dannix chto mojet soderjat lyboi znak
+
 let sym: char = '%';
 println!("Result: {}", sym);
 
 } */
  
- /* fn main() {
+ // CONST, TUPLE, ARRAYS - PRINIYATIE DANNIX OT POLZOVATELYA IO   
+    /* fn main() {
     // Const, tuple, arrays
     // Constanti eto peremenay kotoroy menyat nelzya
     const USER_MAX_SCORE: u32 = 1_000_000;
@@ -79,6 +86,7 @@ let data2: u8 = num2.trim().parse().expect("Please enter a valid number");
     
 }  */
  
+// YSLOVIE OPERATORI IF, IF ELSE, ELSE
 
   /* fn main() {
     // Yslovnie operatori
@@ -95,6 +103,8 @@ let data2: u8 = num2.trim().parse().expect("Please enter a valid number");
     }
 }  */
 
+// TERNARNIE OPERATORI CONDITION
+
   /*  fn main(){
     // Ternarnii operator
     let condition: bool = true;
@@ -102,6 +112,9 @@ let data2: u8 = num2.trim().parse().expect("Please enter a valid number");
 
     println!("Res: {}", number)
   }  */
+
+  // OPERATOR MATCH
+
 
  /* fn main(){
     // Operator match
@@ -118,6 +131,34 @@ let data2: u8 = num2.trim().parse().expect("Please enter a valid number");
     println!("")
 } */
 
-fn main() {
-    
+// LOOPS RUST FOR IN
+
+ /*
+ fn main() {
+    // Loops Rust
+    for i in 1..=10{ // prosto begaet ot 1 do 10 i pokazivaet
+        println!("Number: normal {}", i)
+    }
+    for i in (1..=10).rev(){ // reverse ny rev() begaet naoborot ot bolshego k menshemy
+        println!("Number: reverse {}", i)
+    }
+    for i in (1..=10).rev().step_by(2){ // step_by pokazivaet pereskok cherez 2 elementa
+        println!("Number: reverse + step_by {}", i)
+    }
+}  */
+
+// LOOPS RUST WHILE
+
+fn main(){
+// Loops Rust
+let mut number =3;
+
+
+ while number >0 {
+    println!("Result: {}", number);
+    number -=1;
+
+    println!("Finish");
+     
+ }
 }
