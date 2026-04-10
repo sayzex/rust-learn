@@ -149,7 +149,7 @@ let data2: u8 = num2.trim().parse().expect("Please enter a valid number");
 
 // LOOPS RUST WHILE
 
-fn main(){
+ /* fn main(){
 // Loops Rust
 let mut number =3;
 
@@ -161,4 +161,20 @@ let mut number =3;
     println!("Finish");
      
  }
+} */
+
+fn main(){
+    let mut number = 0;
+
+    let result = loop {
+        number += 10;
+
+        if number >= 50{
+        break number;
+  } else {
+            println!("vse, pizda {}", number)
+        }
+    };
+println!("hop, vot ono {}", result);
+
 }
